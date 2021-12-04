@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff")
+    format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff")
+    format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff")
+    format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
+    format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
+    format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff")
+    format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff")
+    format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pretendard";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #082e54;
+}
+
+main {
+  width: 90%;
+}
+
+.description {
+  font-size: medium;
+  margin-bottom: 1rem;
+}
+
+.emphasis {
+  color: darkred;
+  font-weight: 900;
+}
+
+h1 {
+  word-break: keep-all;
+  font-size: xx-large;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid black;
+}
+
+.description p {
+  margin-bottom: 1rem;
+}
+
+ol {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news-group {
+  margin-bottom: 1rem;
+}
+
+.news-group h4 {
+  font-weight: 500;
+}
+
+.news-group h2 {
+  border-bottom: 1px solid black;
+  margin-bottom: 0.5rem;
+}
+
+.topic {
+  margin-bottom: 0.5rem;
+}
+
+.topic h3 {
+  margin-bottom: 0.3rem;
+}
+
+.news {
+  overflow: hidden;
+}
+
+.news-content {
+  max-height: 0;
+  will-change: max-height;
+  transition: all 0.5s;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  border-radius: 3px;
+  padding: 7px;
+  margin-bottom: 0.2rem;
+}
+
+.news-header button[type="button"] {
+  margin-left: 0.3rem;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 0.2rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.news-content {
+  width: 96%;
+  margin-left: 0.3rem;
+}
+
+button[type="submit"] {
+  padding: 0.3rem 0.6rem;
+  font-size: medium;
+}
+
+.check-guide {
+  margin-bottom: 0.5rem;
+  color: crimson;
+}
+.check-guide.hidden {
+  display: none;
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+footer h4 {
+  font-size: large;
+}
