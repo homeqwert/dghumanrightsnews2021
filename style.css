@@ -129,6 +129,11 @@ ol {
   margin-bottom: 0.5rem;
 }
 
+.news-group p {
+  font-size: small;
+  margin-bottom: 0.5rem;
+}
+
 .topic {
   margin-bottom: 0.5rem;
 }
